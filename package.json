@@ -5,9 +5,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "test": "jest --passWithNoTests --maxWorkers=50%",
+    "test:watch": "jest --watch --maxWorkers=25%",
+    "test:ci": "jest --runInBand",
     "start": "next start",
     "lint": "eslint",
-    "prepare": "husky && husky install"
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "16.4.5",
@@ -16,6 +19,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^10",
+    "@types/jest": "^30.0.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
@@ -27,6 +31,8 @@
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-react": "^7.37.5",
     "husky": "^8.0.0",
+    "jest": "^30.5.2",
+    "jest-environment-jsdom": "^30.5.2",
     "lint-staged": "^17.6.0",
     "prettier": "^3.9.10",
     "typescript": "^5"
