@@ -22,7 +22,9 @@
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^10.14.0",
     "eslint-config-next": "16.4.5",
+    "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-react": "^7.37.5",
+    "prettier": "^3.9.10",
     "typescript": "^5"
   },
   "packageManager": "bun@1.4.4",
