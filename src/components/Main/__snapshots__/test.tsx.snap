@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`<Main /> should render the heading 1`] = `
-<main>
+<main
+  class="sc-bdnzMm cpfRWL"
+>
   <h1>
     React Avançado
   </h1>

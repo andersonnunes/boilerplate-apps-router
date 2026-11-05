@@ -38,6 +38,7 @@
     "jest-environment-jsdom": "^30.5.2",
     "lint-staged": "^17.6.0",
     "prettier": "^3.9.10",
+    "styled-components": "^6.6.0",
     "typescript": "^5"
   },
   "packageManager": "bun@1.4.4",
