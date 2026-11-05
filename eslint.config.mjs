@@ -4,6 +4,7 @@ import tsParser from '@typescript-eslint/parser'
 import tsPlugin from '@typescript-eslint/eslint-plugin'
 import react from 'eslint-plugin-react'
 import prettierConfig from 'eslint-config-prettier/flat'
+import storybook from 'eslint-plugin-storybook'
 
 const eslintConfig = [
   {
@@ -30,6 +31,7 @@ const eslintConfig = [
       '@typescript-eslint/explicit-module-boundary-types': 'off'
     }
   },
+  ...storybook.configs['flat/recommended'],
   prettierConfig
 ]
 
