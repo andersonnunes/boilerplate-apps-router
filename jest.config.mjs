@@ -10,7 +10,9 @@ const config = {
   collectCoverageFrom: [
     'src/**/*.ts(x)?',
     '!src/app/**', // should be tested in e2e
-    '!src/lib/registry.tsx'
+    '!src/lib/registry.tsx',
+    '!src/types/**',
+    '!src/styles/**'
   ],
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
   modulePaths: ['<rootDir>/src/']
